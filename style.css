@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.top1{
+    color: rgb(245,10,10);
+    text-align: center;
+    font-size: 46px;
+    font-family: 'Oswald', sans-serif;
+}
+.top2{
+    
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+}
+.navbar img{
+    display: block;
+    width:50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    height: 14vh;
+    width: 100vw;
+    font-family:'Ubuntu Mono', monospace ;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius:15px ;
+   
+    
+   
+}
+.navcontent{
+    display: flex;
+    justify-content: center;
+    
+}
+ul li{
+    padding: 10px;
+    list-style: none;
+    border-radius:15px ;
+    /* padding: 15px; */
+}
+ul li a{
+    padding: 4px;
+    color: black;
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color: red;
+    border-radius:10px;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width:100vw;
+    height: 63vh;
+
+
+}
+.container2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width:100vw;
+    height: 63vh;
+
+
+}
+.row1 .button{
+    margin: 20px 0px 20px 0px;
+    display: inline-block;
+    
+}
+.button{
+    border: 3px solid white;
+    border-radius: 15px;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.container1::before{
+    content:'';
+    background: url("1.avif") no-repeat center center/cover;
+    width: 100vw;
+    height:59vh;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-right:45px;
+    font-weight: bold;
+    z-index: -1;
+    opacity: 0.9;
+    border: 2px solid black;
+    border-bottom-left-radius: 100px;
+}
+.row1{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+ 
+ .row2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+   
+}
+.row2 .first{
+    position: relative;
+    width: 300px;
+    height:30vh;
+    border-radius: 40px;
+    box-shadow: 2px 2px 10px 10px black;
+
+}
+.container3 .row2 .first::before{
+    content: " ";
+    background: url("chef.avif") no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+    height:30vh;
+    border-radius: 40px;
+
+}
+.row2 .second{
+    position: relative;
+    
+
+}
+.container3 .row2 .second::before{
+    content: " ";
+    background: url("1.avif") no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+    height:30vh;
+    border-radius: 40px;
+    box-shadow: 2px 2px 10px 10px black;
+
+
+}
+
+
+.row2 .third{
+    position: relative;
+    
+
+}
+.container2 .row2 .first::before{
+    content: " ";
+    background: url("2.avif") no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+    height:30vh;
+    border-radius: 40px;
+
+}
+.container2 .row2 .second::before{
+    content: " ";
+    background: url("3.avif") no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+    height:30vh;
+    border-radius: 40px;
+    box-shadow: 2px 2px 10px 10px black;
+
+
+}
+.container2 .row2 .third::before{
+    content: " ";
+    background: url("4.avif") no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+    height:30vh;
+    border-radius: 40px;
+    box-shadow: 2px 2px 10px 10px black;
+
+
+}
