@@ -259,7 +259,7 @@ ul li a:hover {
 
 .row3 .second::before {
     content: " ";
-    background: url("4.avif") no-repeat center center/cover;
+    background: url("3.avif") no-repeat center center/cover;
     position: absolute;
     z-index: -1;
     width: 400px;
